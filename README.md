@@ -16,6 +16,13 @@ Then, in the project directory, you install the requirements.
 pip install -r requirements.txt
 ```
 
+Set environment variables.
+
+```
+export SECRET_KEY=your_secret_key
+export DEBUG=True
+```
+
 Now, make the migrations.
 
 ```
